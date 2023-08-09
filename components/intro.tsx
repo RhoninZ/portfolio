@@ -31,7 +31,7 @@ export default function Intro() {
                 />
                 </motion.div>
                 
-                <motion.span className='absolute bottom-0 right-0 text-4*1'
+                <motion.span className='absolute bottom-0 right-0 text-4x1'
                     initial={{opacity:0, scale:0 }}
                     animate={{opacity:1, scale:1 }}
                     transition={{
@@ -44,15 +44,15 @@ export default function Intro() {
                 </motion.span>
             </div>
         </div>
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
             initial={{opacity:0, y:100}}
             animate={{opacity:1, y:0}}
             >
             <span className='font-bold'>Hello, I'm Yang.</span> I'm a {" "}
             <span className='font-bold'>Computer Engineering student</span> at{" "}
-            <span className='font-bold'>Concordia University.</span>I has learnt to build sites & Apps.{" "} This website use
+            <span className='font-bold'>Concordia University.</span>I has learnt to build sites & Apps.{" "} This website uses{" "}
             <span className='italic'>Next.js, TypeScipt, Tailwind CSS.</span>
-        </motion.p>
+        </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
             initial={{opacity:0,y:100}}
