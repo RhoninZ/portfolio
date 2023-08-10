@@ -26,7 +26,7 @@ export default function Contact() {
     }}
     className='mb-20 sm:mb-28 w-[min(100%,38rem)] text-center'>
         <SectionHeading>Contact me</SectionHeading>
-        <p className='text-gray-700 -mt-3'>
+        <p className='text-gray-700 -mt-3 dark:text-white/80'>
             Please contact me directly at{" "}
             <a className='underline' href ="mailto:xxxxx@gmail.com">xxxxxx@gmail.com</a>
             {" "}  or through this form.
@@ -43,14 +43,16 @@ export default function Contact() {
             
             <input 
             name="senderEmail"
-            className='h-14 px-4 rounded-lg borderBlack' 
+            className='h-14 px-4 rounded-lg borderBlack
+                dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' 
             type="email"
             placeholder='Your email'
             required
             maxLength={100}/>
             <textarea 
             name="message"
-            className='h-52 my-3 rounded-lg borderBlack p-4'
+            className='h-52 my-3 rounded-lg borderBlack p-4
+            dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
             placeholder='your message'
             required
             maxLength={500}/>
