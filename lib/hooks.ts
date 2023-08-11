@@ -14,11 +14,11 @@ export function useSectionInView(sectionName: SectionName,threshold = 0.7){
       });
       const {setActiveSection, timeOfLastClick} = useActiveSectionContext();
     
-      useEffect(()=>{
+      useEffect(() => {
           if(inView && Date.now() - timeOfLastClick >1000){
               setActiveSection(sectionName);
           }
-      },[inView, setActiveSection,timeOfLastClick]);
+      },[inView, setActiveSection,timeOfLastClick, sectionName]);
 
     return {ref};
 }
