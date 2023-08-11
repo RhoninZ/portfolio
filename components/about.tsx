@@ -22,10 +22,10 @@ export default function About() {
 
         <p className='mb-3'>
         In 2017, I graduated from {" "}
-        <span className="font-medium">Concorida University</span> with a degree in {" "}
+        <span className="font-medium">Concordia University</span> with a degree in {" "}
         <span className="font-medium">Computer Science</span>. After graduation, I started a company engaged in {" "}
         <span className="italic">Import and Export Trade</span>. Because I love {" "}
-        <span className="underline">skiing</span>, I took the exam and get my {" "}
+        <span className="underline"> skiing </span>, I took the exam and get my {" "}
         <span className="font-medium">Level 3 Ski Instructor certificate</span> from CSIA.  
         Currently, I am studying {" "}
         <span className="font-medium">Computer Engineering - COOP </span> at Concordia University.

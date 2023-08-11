@@ -58,7 +58,7 @@ export default function Intro() {
             >
             <span className='font-bold'>Hello, I&apos;m Yang.</span> I&apos;m a {" "}
             <span className='font-bold'>Computer Engineering COOP student</span> at{" "}
-            <span className='font-bold'>Concordia University.</span> I have learnt to build sites & Applications.{" "} This website uses{" "}
+            <span className='font-bold'>Concordia University.</span> I have learnt to build Sites & Applications.{" "} This website uses{" "}
             <span className='italic'>Next.js, TypeScipt, Tailwind CSS.</span>
         </motion.h1>
 
