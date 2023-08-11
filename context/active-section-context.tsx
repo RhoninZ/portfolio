@@ -23,8 +23,10 @@ export default function ActiveSectinoContextProvider({children}:
     const [activeSection, setActiveSection] = useState<SectionName>('Home');
     const [timeOfLastClick, setTimeOfLastClick] = useState(0);
 
-    return <ActiveSectionContext.Provider 
-    value={{activeSection,setActiveSection,timeOfLastClick,setTimeOfLastClick}}>{children}</ActiveSectionContext.Provider>;
+    return <ActiveSectionContext.Provider value={{
+        activeSection,setActiveSection,timeOfLastClick,setTimeOfLastClick}}>
+        {children}
+        </ActiveSectionContext.Provider>;
 }
 
 
