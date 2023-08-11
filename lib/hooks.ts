@@ -7,7 +7,7 @@ type useSectinoInViewProps ={
     sectionName:SectionName;
 }
 
-export function useSectionInView(sectionName: SectionName,threshold = 0.75){
+export function useSectionInView(sectionName: SectionName,threshold = 0.7){
 
     const {ref, inView} = useInView({
         threshold,
@@ -20,5 +20,5 @@ export function useSectionInView(sectionName: SectionName,threshold = 0.75){
           }
       },[inView, setActiveSection,timeOfLastClick]);
 
-    return {ref, };
+    return {ref};
 }

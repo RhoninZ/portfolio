@@ -14,7 +14,7 @@ import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
    
-    const {ref} = useSectionInView("Home",0.5);
+    const {ref} = useSectionInView("Home", 0.5);
     const {setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
    
   return (
@@ -48,7 +48,7 @@ export default function Intro() {
                         delay:0.2,
                         duration:0.7,
                     }}>
-                    🤪
+                    ⛷️
                 </motion.span>
             </div>
         </div>
@@ -57,8 +57,8 @@ export default function Intro() {
             animate={{opacity:1, y:0}}
             >
             <span className='font-bold'>Hello, I'm Yang.</span> I'm a {" "}
-            <span className='font-bold'>Computer Engineering student</span> at{" "}
-            <span className='font-bold'>Concordia University.</span>I has learnt to build sites & Apps.{" "} This website uses{" "}
+            <span className='font-bold'>Computer Engineering COOP student</span> at{" "}
+            <span className='font-bold'>Concordia University.</span> I have learnt to build sites & Applications.{" "} This website uses{" "}
             <span className='italic'>Next.js, TypeScipt, Tailwind CSS.</span>
         </motion.h1>
 
@@ -83,12 +83,12 @@ export default function Intro() {
             </a>
 
             <a className='bg-white p-4 text-gray-600 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
-                href="http://linkedin.com" target="_blank">
+                href="http://www.linkedin.com/in/yangzhang90" target="_blank">
                 <BsLinkedin />
             </a>
 
             <a className='bg-white p-4 text-gray-600 flex items-center gap-2 rounded-full text-[1.3rem] focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
-                href="http://github.com" target="_blank">
+                href="https://github.com/RhoninZ" target="_blank">
                 <FaGithubSquare/>
             </a>
         </motion.div>
