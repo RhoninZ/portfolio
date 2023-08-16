@@ -2,7 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LiaSkiingSolid } from "react-icons/lia";
 import { LuGraduationCap } from "react-icons/lu";
-import portfolioImg from "@/public/sample.jpg";
+import portfolioImg from "@/public/portfolio.png";
+import jobsearchingImg from "@/public/jobsearch.png"
 
 
 export const links = [
@@ -76,6 +77,13 @@ export const projectsData = [
     tags: ["React", "Next.js","Tailwind"],
     imageUrl: portfolioImg,
   },
+  {
+    title: "Job Searching App",
+    description:
+      "I built a job searching App that helped me to find COOP.",
+    tags: ["React Native", "Expo"],
+    imageUrl: jobsearchingImg,
+  },
   
 ] as const;
 
@@ -91,6 +99,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "React Native",
   "React",
   "Next.js",
   "Node.js",
